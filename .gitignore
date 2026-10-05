@@ -223,3 +223,5 @@ model_local/
 .amlignore
 *.amltmp
 .ipynb_aml_checkpoints/
+data/mltable_v*/
+data/mltable_v*/
