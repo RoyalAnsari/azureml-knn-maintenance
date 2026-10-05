@@ -1,0 +1,14 @@
+name: knn-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - mlflow<3
+      - scikit-learn==1.7.2
+      - pandas
+      - numpy
+      - cloudpickle
+      - azureml-inference-server-http
+      - azureml-ai-monitoring
